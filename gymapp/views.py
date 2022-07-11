@@ -4,3 +4,5 @@ from django.shortcuts import render
 
 def booking(request):
      return render(request,'booking.html')
+def registration(request):
+     return render(request,'Registration.html')
